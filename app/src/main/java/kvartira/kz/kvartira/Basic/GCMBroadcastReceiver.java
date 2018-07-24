@@ -1,0 +1,19 @@
+package kvartira.kz.kvartira.Basic;
+
+import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Context;
+import android.content.Intent;
+import android.support.v4.content.WakefulBroadcastReceiver;
+
+/**
+ * Created by Aslan on 24.03.2016.
+ */
+public class GCMBroadcastReceiver extends WakefulBroadcastReceiver {
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        ComponentName comp = new ComponentName(context.getPackageName(), GCMIntentService.class.getName());
+        startWakefulService(context, intent.setComponent(comp));
+        setResultCode(Activity.RESULT_OK);
+    }
+}
