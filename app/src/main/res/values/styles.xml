@@ -1,0 +1,34 @@
+<resources>
+
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">@color/main</item>
+        <item name="colorControlHighlight">@color/main</item>
+    </style>
+
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/main</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">@color/main</item>
+        <item name="colorControlHighlight">@color/main</item>
+    </style>
+
+    <style name="MainThemeWithBar" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/main</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">@color/main</item>
+        <item name="colorControlHighlight">@color/main</item>
+    </style>
+
+    <style name="DatePickerTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">@color/main</item>
+        <item name="colorControlHighlight">@color/main</item>
+        <item name="textColorAlertDialogListItem">#000000</item>
+        <item name="colorAccent">@color/main</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>

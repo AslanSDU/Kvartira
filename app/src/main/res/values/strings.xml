@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Shanyrak</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="profile_activity">Профиль</string>
+
+    <!-- general -->
+    <string name="send_complaint">Отправить</string>
+    <string name="write_complaint">Написать жалобу</string>
+    <string name="male">Мужчина</string>
+    <string name="female">Женщина</string>
+    <string name="send_offer">Напишите свои отзывы или предложения</string>
+    <string name="invite">Теперь найти квартиру стало легко. Скачай приложение "Shanyrak". https://play.google.com/store/apps/details?id=kvartira.kz.kvartira</string>
+    <string name="share">Пригласить через ...</string>
+
+    <!-- toast -->
+    <string name="number_not_complete">Введите номер полностью</string>
+
+    <!-- activity_main -->
+    <string name="enter_button">Войти</string>
+    <string name="phone_number">Введите номер телефона</string>
+    <string name="change_phone_number">Сменить номер</string>
+    <string name="replay_code">Повторить</string>
+    <string name="check_phone_number">Проверить</string>
+    <string name="sms_code">СМС код</string>
+    <string name="send_code_text_first_part">Вам на номер</string>
+    <string name="send_code_text_second_part">отправлен смс с кодом, введите его пожалуйста</string>
+    <string name="realtor">Риэлтор</string>
+    <string name="client">Клиент</string>
+    <string name="who_are_you">Кто вы?</string>
+
+    <!-- activity_registration -->
+    <string name="user_name">Имя(обязательно)</string>
+    <string name="user_surname">Фамилия(обязательно)</string>
+    <string name="user_dof">Дата рождения</string>
+    <string name="user_gender">Пол</string>
+    <string name="user_city">Город(обязательно)</string>
+    <string name="user_save">Сохранить</string>
+
+    <!-- activity client -->
+    <string name="drawer_opened">Drawer Opened</string>
+    <string name="drawer_closed">Drawer Closed</string>
+    <string name="order_button">Снять</string>
+    <string name="area">Район</string>
+    <string name="room_number">Количество комнат</string>
+    <string name="price">Стоимость</string>
+    <string name="note">Примечание</string>
+    <string name="not_for_me">Снимаю не себе</string>
+    <string name="other_phone">Номер, куда надо звонить</string>
+
+    <!-- activity order -->
+    <string name="daily_rent">Посуточная</string>
+    <string name="longterm_rent">Долгосрочная</string>
+
+    <!-- activity new flat -->
+    <string name="address">Адрес</string>
+    <string name="floor">Этаж</string>
+    <string name="floors">Этажность</string>
+    <string name="type">Тип строения</string>
+    <string name="description">Описание</string>
+    <string name="publish">Опубликовать</string>
+</resources>
